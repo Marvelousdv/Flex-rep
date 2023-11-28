@@ -1,0 +1,23 @@
+.container{
+    display:flex;
+    border: 3px solid green;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.item{
+    border: 2px solid orange;
+    height: 20px;
+    width: 100%;
+}
+
+#item6{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#Item3{
+    flex:1
+}
